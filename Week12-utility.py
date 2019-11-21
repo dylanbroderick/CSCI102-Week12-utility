@@ -50,3 +50,12 @@ def ScoreFinder(players,scores,NAME):
     else:
         print("OUTPUT player not found")
 
+def Union(list1,list2):
+    dup_list = list1 + list2
+    out_list = []
+    for i in dup_list:
+        if i not in out_list:
+            out_list.append(i)
+    return out_list
+
+
