@@ -64,3 +64,10 @@ def Intersection(list1,list2):
         if i in list1:
             intersection.append(i)
     return intersection
+
+def NotIn(list1,list2):
+    notinlist2 = []
+    for i in list1:
+        if i not in list2:
+            notinlist2.append(i)
+    return notinlist2
