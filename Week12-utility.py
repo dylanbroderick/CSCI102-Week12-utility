@@ -13,3 +13,9 @@ def LoadFile(file):
         lines.append(line)
     return lines
 
+def UpdateString(string1,string2,index):
+    S1LIST = string1.split(string1[3])
+    separator = string2
+    up_string = separator.join(S1LIST)
+    return up_string
+
