@@ -19,3 +19,9 @@ def UpdateString(string1,string2,index):
     up_string = separator.join(S1LIST)
     return up_string
 
+def FindWordCount(list1,string):
+    space = " "
+    string1 = space.join(list1)
+    i = 0
+    for s in string1:
+        
