@@ -3,4 +3,6 @@
 #CSCI102 - Section E
 #Week 12 - Part A
 
-test = 123
+def PrintOutput(s):
+    print("OUTPUT",s)
+
