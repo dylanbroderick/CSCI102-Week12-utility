@@ -31,3 +31,22 @@ def FindWordCount(list1,a):
             #print(i)
     print(count)
 
+def ScoreFinder(players,scores,NAME):
+    i = 0
+    for player in players:
+        players[i] = players[i].lower()
+        i += 1
+    name = NAME.lower()
+    n = 0
+    name_in_list = False
+    for player in players:
+        if name == player:
+            name_in_list = True
+            N = n
+            break
+        n += 1
+    if name_in_list == True:
+        print("OUTPUT",NAME,"got a score of",scores[N])
+    else:
+        print("OUTPUT player not found")
+
